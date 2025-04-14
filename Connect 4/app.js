@@ -16,7 +16,7 @@ $(document).ready(function(){
                 $(this).css("background-color", colors[player]);
                 $(this).attr("data-player", player);
 
-                player *- -1;
+                player *= -1;
             }
         });
     });
