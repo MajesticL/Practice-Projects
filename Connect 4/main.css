@@ -1,0 +1,21 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 120px);
+    grid-template-rows: repeat(6, 120px);
+    width: 800px;
+    height: 700px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: black;
+}
+
+.cell {
+    border: 5px solid black;
+    background-color: white;
+    border-radius: 25%;
+    outline: 5px solid black;
+}
+
+.cell:hover {
+    background-color: rgb(236, 81, 236);
+}
